@@ -1,0 +1,50 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.7467,
+    "precision": 0.0039,
+    "recall": 0.6981,
+    "f1_score": 0.0077,
+    "pr_auc": 0.008,
+    "roc_auc": 0.7447,
+    "false_positive_rate": 0.2533,
+    "confusion_matrix": [
+      27963,
+      9484,
+      16,
+      37
+    ],
+    "trainable": true
+  },
+  "random_forest": {
+    "accuracy": 0.9875,
+    "precision": 0.0293,
+    "recall": 0.2453,
+    "f1_score": 0.0524,
+    "pr_auc": 0.0353,
+    "roc_auc": 0.7698,
+    "false_positive_rate": 0.0115,
+    "confusion_matrix": [
+      37017,
+      430,
+      40,
+      13
+    ],
+    "trainable": true
+  },
+  "xgboost": {
+    "accuracy": 0.9986,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "pr_auc": 0.0127,
+    "roc_auc": 0.7418,
+    "false_positive_rate": 0.0,
+    "confusion_matrix": [
+      37447,
+      0,
+      53,
+      0
+    ],
+    "trainable": true
+  }
+}
